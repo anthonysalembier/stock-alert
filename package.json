@@ -1,0 +1,13 @@
+{
+  "name": "stock-alert",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED='0' node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {}
+}
